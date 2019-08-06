@@ -1,5 +1,5 @@
 {
-    "name": "kriswallsmith/assetic",
+    "name": "livestreet/assetic",
     "description": "Asset Management for PHP",
     "keywords": [ "assets", "compression", "minification" ],
     "homepage": "https://github.com/kriswallsmith/assetic",
@@ -10,6 +10,10 @@
             "name": "Kris Wallsmith",
             "email": "kris.wallsmith@gmail.com",
             "homepage": "http://kriswallsmith.net/"
+        },
+        {
+            "name": "Oleg Demidov",
+            "email":"end-fin@mail.ru"
         }
     ],
     "require": {
