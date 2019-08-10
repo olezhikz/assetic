@@ -35,11 +35,11 @@ class MergeWorker implements WorkerInterface
             $asset = clone $asset;
         }
         echo  $asset->getTargetPath(). get_class($asset).PHP_EOL;
-        if($asset instanceof \Assetic\Asset\AssetCollectionInterface){
-            foreach ($asset as $leaf) {
-                echo  $leaf->getTargetPath(). get_class($leaf).PHP_EOL;
-            }
-        }
+//        if($asset instanceof \Assetic\Asset\AssetCollectionInterface){
+//            foreach ($asset as $leaf) {
+//                echo  $leaf->getTargetPath(). get_class($leaf).PHP_EOL;
+//            }
+//        }
     }
 
 }
